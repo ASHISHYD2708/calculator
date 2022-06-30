@@ -1,0 +1,59 @@
+.container{
+    max-width: 400px;
+    border-radius: 2%;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+    background-color: white;
+}
+body{
+    background-color: aquamarine;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    padding: 0%;
+    font-size: large;
+}
+#display {
+    text-align: right;
+    border-radius: 2%;
+    height: 70px;
+    line-height: 70px;
+    margin-bottom: 10px;
+    padding: 16px 8px;
+    font-size: 25px;
+    font-style: italic;
+    background-color: #999;
+}
+/* jisko id di hai usko # se use krenge*/
+.buttons {
+    display: grid;
+   
+    /* 4 columns mein distribute krne ke liye */
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+}
+/* jb cursor move krenge uska colour*/
+.button:hover {
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+.buttons > div {
+    border-top: 1px solid #999;
+    border-right: 1px solid#999;
+    border-left: 1px solid#999;
+    border-bottom: 1px solid#999;
+}
+.button {
+    border-radius: 100%;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+ font-weight: 200;
+    
+}
+#equal {
+    background-color: rgb(85, 85, 255);
+    border-radius: 100%;
+    color: white;
+}
